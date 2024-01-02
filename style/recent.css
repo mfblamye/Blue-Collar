@@ -1,0 +1,102 @@
+.main__recent {
+    padding: 150px 0 160px;
+    background: #1c2752;
+}
+
+.main__recent__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.main__recent__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.main__recent__heading-text-mini {
+    max-width: 174px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #f4f4f4;
+    color: #1c2752;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+}
+
+.main__recent__heading-title {
+    color: #fff;
+    font-family: "MR", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36px;
+}
+
+.main__recent__cards {
+    padding: 0 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.main__recent__cards-card {
+    padding: 22px;
+    width: 320px;
+    max-height: 514px;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    transition: .3s;
+}
+
+.main__recent__cards-card:hover {
+    scale: 1.05;
+}
+
+.main__recent__cards-card-img {
+    width: 278px;
+    height: 334px;
+}
+
+.main__recent__cards-card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.main__recent__cards-card-desc-title {
+    max-width: 248px;
+    width: 100%;
+    text-align: center;
+    color: #1c2752;
+    font-family: "MR", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.36px;
+    border-bottom: 2px solid transparent;
+    transition: .2s;
+    text-decoration: 2px solid transparent;
+}
+
+.main__recent__cards-card-desc-text {
+    color: #7e7e7e;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+}

@@ -1,0 +1,107 @@
+.main__welcome {
+    padding: 140px 0;
+}
+
+.main__welcome__wrap {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.main__welcome__desc-text-mini {
+    max-width: 250px;
+    width: 100%;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #1c2752;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    margin-bottom: 22px;
+    font-family: 'IR', sans-serif;
+}
+
+.main__welcome__desc-title {
+    color: #1c2752;
+    font-family: "MR", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36px;
+    margin-bottom: 12px;
+}
+
+.main__welcome__desc-text {
+    color: #7e7e7e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    font-family: 'IR', sans-serif;
+}
+
+.main__welcome__desc-text:nth-of-type(2) {
+    margin-bottom: 10px;
+}
+
+.main__welcome__desc-text:last-of-type {
+    margin-bottom: 18px;
+}
+
+.main__welcome__desc-exp {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main__welcome__desc-exp-years {
+    width: 198px;
+    height: 220px;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.main__welcome__desc-exp-years-title {
+    color: #ffb342;
+    font-family: "MR", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.36px;
+}
+
+.main__welcome__desc-exp-years-text {
+    max-width: 112px;
+    width: 100%;
+    color: #1c2752;
+    text-align: center;
+    font-family: "MR", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+}
+
+.main__welcome__desc-exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main__welcome__desc-exp-list-item-text {
+    color: #7e7e7e;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    font-family: 'IR', sans-serif;
+}

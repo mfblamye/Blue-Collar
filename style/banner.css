@@ -68,5 +68,5 @@
 .banner__btn:hover {
     background: #FFB342;
     color: #fff;
-
+    scale: 1.05;
 }
