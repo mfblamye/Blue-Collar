@@ -79,8 +79,6 @@
 }
 
 .main__recent__cards-card-desc-title {
-    max-width: 248px;
-    width: 100%;
     text-align: center;
     color: #1c2752;
     font-family: "MR", sans-serif;
