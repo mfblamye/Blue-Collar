@@ -1,0 +1,105 @@
+.main__newsletter {
+    background: #FFB342;
+    padding: 141px 120px 78px;
+}
+
+.main__newsletter__wrap {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+}
+
+.main__newsletter__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.main__newsletter__heading-title {
+    font-family: 'MR', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: #1c2752;
+
+}
+
+.main__newsletter__heading-text {
+    color: #1C2752;
+    font-family: 'IR', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    max-width: 410px;
+    width: 100%;
+}
+
+.main__newsletter__form {
+    display: flex;
+    align-items: center;
+}
+
+.main__newsletter__form-input {
+    font-family: 'IR', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    outline: none;
+    padding: 33px 55px;
+    border: 3px solid #fff;
+    height: 65px;
+    transition: .3s;
+    background: none;
+}
+
+input[type="email"]::-moz-placeholder {
+    color: #fff;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input[type="email"]:-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="email"]::-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.main__newsletter__form-input:hover {
+    border: 3px solid hsl(0, 0%, 94%);
+    box-shadow: 4px 5px 10px #0000006f,
+        -4px -5px 10px #00000039;
+}
+
+.main__newsletter__btn {
+    border: 2px solid #FFF;
+    background: #FFF;
+    padding: 21px 49px;
+    color: #1C2752;
+    font-family: 'IR', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.main__newsletter__btn:hover {
+    background: #FFB342
+}

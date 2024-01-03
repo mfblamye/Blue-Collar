@@ -205,7 +205,6 @@
     color: #fff;
     background: rgb(1, 18, 255);
     box-shadow: 7px 5px 20px hwb(71 10% 0% / 0.235),
-        -3px -5px 10px hsl(0, 100%, 50%);
 }
 
 .main__price-plan__benefits {
