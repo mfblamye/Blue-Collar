@@ -70,6 +70,8 @@
 .footer__box {
     display: flex;
     gap: 140px;
+    width: 395px;
+    width: 100%;
 }
 
 .footer__item {

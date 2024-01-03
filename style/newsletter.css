@@ -24,7 +24,8 @@
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: #1c2752;
-
+    max-width: 410px;
+    width: 100%;
 }
 
 .main__newsletter__heading-text {
